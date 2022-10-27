@@ -1,2 +1,3 @@
 # Wireguard-VPS-Port-Forward
+This project contains instructions (wiki) and example configuration files and scripts with the purpose of helping you forward/route internet traffic from a rented VPS to a server on your local network via a WireGuard tunnel. The connection through the tunnel maintains the source IP information so your local server will see the real IPs of the clients connecting to it (unlike the majority of other methods you will find guides for wich rely on NAT to ensure traffic flows over the tunnel).
 ![NetDiagram drawio](https://raw.githubusercontent.com/randommouse/Wireguard-VPS-Port-Forward/main/img/NetDiagram.drawio.png)
